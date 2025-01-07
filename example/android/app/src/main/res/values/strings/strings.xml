@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image box</string>
+    <string name="msg_default_status">Please take a picture within the viewfinder rectangle.</string>
+    <string name="imagefiler_original">original</string>
+    <string name="imagefiler_sepia">sepia</string>
+    <string name="imagefiler_HDR">Ani</string>
+    <string name="imagefiler_retro">retro</string>
+    <string name="imagefiler_graytone">graytone</string>
+    <string name="imagefiler_instafix">instafix</string>
+    <string name="imagefiler_invert">invert</string>
+    <string name="imagefiler_testino">testino</string>
+    <string name="imagefiler_ansel">ansel</string>
+    <string name="imagefiler_cyano">cyano</string>
+    <string name="imagefiler_georgia">georgia</string>
+    <string name="imagefiler_sahara">sahara</string>
+    <string name="imagefilter_original">original</string>
+    <string name="imagefilter_gray">gray</string>
+    <string name="imagefilter_anim">anim</string>
+    <string name="imagefilter_slumber">slumber</string>
+    <string name="imagefilter_peach">peach</string>
+    <string name="imagefilter_snow">snow</string>
+    <string name="imagefilter_daily">daily</string>
+    <string name="imagefilter_light">light</string>
+    <string name="imagefilter_chic">chic</string>
+    <string name="imagefilter_spring">spring</string>
+    <string name="imagefilter_cherry">cherry</string>
+    <string name="imagefilter_happy">happy</string>
+    <string name="imagefilter_frozen">frozen</string>
+    <string name="Category_sticker00">icon_stiker_animal</string>
+    <string name="Category_sticker01">icon_stiker_event</string>
+    <string name="Category_sticker02">icon_stiker_face</string>
+    <string name="Category_sticker03">icon_stiker_food</string>
+    <string name="Category_sticker04">icon_stiker_object</string>
+    <string name="Category_sticker05">icon_stiker_weather</string>
+    <string name="Category_sticker06">icon_stiker_frame</string>
+    <!-- add frame -->
+    <string name="img_frame00">frame_dot_001</string>
+    <string name="img_frame01">frame_dot_001</string>
+    <string name="img_frame02">frame_triangle_001</string>
+    <string name="img_frame03">frame_polaroid_001</string>
+    <string name="img_frame04">frame_rain_001</string>
+    <string name="img_frame05">frame_film_001</string>
+    <string name="img_frame06">frame_heart_001</string>
+    <string name="img_frame07">frame_ribbon_001</string>
+    <string name="img_frame08">frame_leaf_001</string>
+    <string name="img_frame09">frame_wedding_001</string>
+    <string name="img_frame10">frame_magazine_001</string>
+    <string name="img_frame11">frame_emphasis_001</string>
+    <string name="img_frame12">frame_newyear_001</string>
+    <string name="img_frame13">frame_night_001</string>
+    <string name="img_frame14">frame_summer_001</string>
+    <string name="img_frame15">frame_birthday_002</string>
+    <string name="img_frame16">frame_birthday_001</string>
+    <string name="img_frame17">frame_helloween_001</string>
+    <string name="img_frame_icon00">img_frame_a001</string>
+    <string name="img_frame_icon01">icon_frame_dot_001_48</string>
+    <string name="img_frame_icon02">icon_frame_triangle_001_48</string>
+    <string name="img_frame_icon03">icon_frame_polaroid_001_48</string>
+    <string name="img_frame_icon04">icon_frame_rain_001_48</string>
+    <string name="img_frame_icon05">icon_frame_film_001_48</string>
+    <string name="img_frame_icon06">icon_frame_heart_001_48</string>
+    <string name="img_frame_icon07">icon_frame_ribbon_001_48</string>
+    <string name="img_frame_icon08">icon_frame_leaf_001_48</string>
+    <string name="img_frame_icon09">icon_frame_wedding_001_48</string>
+    <string name="img_frame_icon10">icon_frame_magazine_001_48</string>
+    <string name="img_frame_icon11">icon_frame_emphasis_001_48</string>
+    <string name="img_frame_icon12">icon_frame_newyear_001_48</string>
+    <string name="img_frame_icon13">icon_frame_night_001_48</string>
+    <string name="img_frame_icon14">icon_frame_summer_001_48</string>
+    <string name="img_frame_icon15">icon_frame_birthday_002_48</string>
+    <string name="img_frame_icon16">icon_frame_birthday_001_48</string>
+    <!--  <string name="img_frame_icon17">icon_frame_helloween_001_48</string>-->
+    <!-- DeviceListActivity -->
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Choose a device to connect</string>
+    <string name="none_paired">No paired devices</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="title_other_devices">Available devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Create the connection</string>
+    <!-- Alert Msg Can't use camera low battery! -->
+    <string name="out_of_memory">Out of Memory!</string>
+    <string name="out_of_memory_save">Out of memory.</string>
+    <string name="unuse_camera">Battery low. \nUnable to use camera.</string>
+    <string name="mobile_network_error">Unable to connect Mobile Network.</string>
+    <string name="app_exit">Are you sure you want to exit the program?</string>
+    <string name="device_connect_error">Unable to connect image box.</string>
+    <string name="print_cancel">Cancel printing.</string>
+    <string name="send_img_error">Error occurred in image being sent.</string>
+    <string name="print_error">Printing error.</string>
+    <string name="vie_delete">Are you sure you want to \ndelete the Secret View image?</string>
+    <string name="passwd_delete">Are you sure you want to \ndelete saved password?</string>
+    <string name="voice_delete">Are you sure you want to \ndelete saved voice recording?</string>
+    <string name="url_delete">Are you sure you want to \ndelete saved URL?</string>
+    <string name="phone_delete">Are you sure you want to \ndelete saved phone number?</string>
+    <string name="url_def_error">Invalid URL Address</string>
+    <string name="add_passwd_error">Password Error!</string>
+    <string name="passwd_match_error">Incorrect password. \nTry again.</string>
+    <string name="bluetooth_not_support">Unable to use Bluetooth.</string>
+    <string name="capure_camera_version">Please check your Android OS version. (Must be higher than 4.1)</string>
+    <string name="vie_server_connecting">Connecting to server.</string>
+    <string name="print_msg_01">Keep connected to the end of printing.</string>
+    <string name="print_msg_02">Sending to the printer has been completed.</string>
+    <string name="print_msg_03">Sending file to the printer.</string>
+    <string name="print_msg_04">Printing </string>
+    <string name="print_msg_05">Printing has been completed.</string>
+    <string name="businesscard_max_limit_text">Character length should be \nless than 30.</string>
+    <string name="businesscard_max_limit_text2">Character length should be \nless than 26.</string>
+    <string name="image_no_support">Unsupported image file.</string>
+    <string name="invalid_data">Please check your application version.</string>
+    <string name="server_timeout"></string>
+    <string name="print_image_error">Printing image error!</string>
+    <string name="voice_streaming">Preparing voice streaming. \nPlease wait.</string>
+    <string name="size_no_support">Image size should be higher than 240 pixels.</string>
+    <string name="select_print">The printer is not connected.\nPlease check the connection.</string>
+    <string name="sns_disconnection">Disconnect SNS</string>
+    <string name="print_msg_new_01">Sending image.</string>
+    <string name="print_msg_new_02">Complete sending image.</string>
+    <string name="print_msg_new_03">Printing </string>
+    <string name="checkbox_error">All checkboxes unchecked.</string>
+    <string name="select_error">Choose one or more.</string>
+    <!-- Custom Dialog Msg -->
+    <string name="info"> INFORMATION </string>
+    <string name="error"> ERROR </string>
+    <string name="warning"></string>
+    <string name="exit">EXIT</string>
+    <string name="VER_CHECK"> VERSION </string>
+    <string name="delete"> Delete </string>
+    <string name="firmware_update"> Firmware Update</string>
+    <string name="Update_completed">Update Completed</string>
+    <string name="Update_failed">Update Failed</string>
+    <string name="downloading">Downloading</string>
+    <string name="Preparing_Update">Being ready for downloading.</string>
+    <string name="Check_version">Check to update</string>
+    <string name="Verfiy_version">Verifying update</string>
+    <string name="printcancel">Cancel printing.</string>
+    <string name="exitofapp">Exit application.</string>
+    <string name="max_30"> You can enter up to 30 characters.</string>
+    <string name="max_26"> You can enter up to 26 characters.</string>
+    <string name="server_connect_error">Server error occurred.</string>
+    <string name="create_image_error">Unable to create an image file.</string>
+    <string name="bt_disconnect">Bluetooth connection has been disconnected.</string>
+    <string name="unable_bt">Unable to use Bluetooth.</string>
+    <string name="vie_help_1">"Secret View" mode helps to send secret message in image.</string>
+    <string name="vie_help_2">Secret message can be made using "Secret View Creation Icon"</string>
+    <string name="vie_help_3">Secret message made by text, emoticon, voice is not seen when being printed.</string>
+    <string name="vie_help_4">"Secret View Image Reader" mode helps to read secret message.</string>
+    <string name="vie_help_5">Tapping "delete" marks checkbox on the image. </string>
+    <string name="vie_help_6">Selected image will be deleted by tapping "delete" after choosing.</string>
+    <string name="vie_help_7">The see the secret message use the icon of </string>
+    <string name="vie_help_8"><![CDATA["""]]>Secret view image Reader<![CDATA["""]]></string>
+    <!-- Others -->
+    <string name="anyStringValue">anyStringValue</string>
+    <string name="title_activity_fun_collage_help">FunCollageHelpActivity</string>
+    <string name="bluetooth_search">Scanning for new devices.</string>
+    <string name="title_activity_fun_businesscard_help">FunBusinesscardHelpActivity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="action_settings">Settings</string>
+    <!-- Main menu text -->
+    <string name="menu_quick_print">Quick Print</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_edit_print">Edit Print</string>
+    <string name="menu_name_card">Name Card</string>
+    <string name="menu_secret_view">Secret View</string>
+    <string name="menu_collage">Collage</string>
+    <!-- Error code -->
+    <string name="error_code_idle">Idle</string>
+    <string name="error_code_busy">It\'s being printed!</string>
+    <string name="other_print_status">There are currently several people printing!</string>
+    <string name="error_code_paper_jam">Paper Jam</string>
+    <string name="error_code_paper_empty">Paper Empty</string>
+    <string name="error_code_paper_mismatch">Paper Mismatch</string>
+    <string name="error_code_data_error">Data Error</string>
+    <string name="error_code_cover_open">Cover Open</string>
+    <string name="error_code_system_error">System Error</string>
+    <string name="error_code_battery_low">Battery Low</string>
+    <string name="error_code_battery_fault">Battery Fault</string>
+    <string name="error_code_high_temperature">High Temperature</string>
+    <string name="error_code_low_temperature">Low Temperature</string>
+    <string name="error_code_cooling_mode">Cooling Mode</string>
+    <string name="error_code_send_data_cancel">Send Data Cancel</string>
+    <string name="error_code_wrong_customer">Wrong Customer</string>
+    <string name="error_code_usb_connected">USB Connected</string>
+    <string name="error_code_cleaning_sheet">Dispensing cleaning sheets</string>
+    <string name="title_activity_main_edit_help">MainEditHelpActivity</string>
+    <string name="title_activity_vie_camera_capture_help">VieCameraCaptureHelpActivity</string>
+    <string name="title_activity_qrcode_scan_help">QRcodeScanHelpActivity</string>
+    <!-- add string -->
+    <string name="sv_reader_qr_scan">Please take a picture within the viewfinder rectangle in accordance with QR code.</string>
+    <string name="hint_page_checkbox">Check if you don`t want to see it again.</string>
+    <string name="hint_page_checkbox_checked">Do not show help again.</string>
+    <string name="hint_page_checkbox_unchecked">Show help.</string>
+    <string name="power_check">Check the power of image box.</string>
+    <string name="unsupported_nfc">This page doesn`t support NFC automatic printing. If you want automatic printing, please go back to previous page and tag it again.</string>
+    <!-- add string 141028 -->
+    <string name="nfc_auto_print">Start automatic printing.</string>
+    <string name="title_activity_setting01_help">Setting01HelpActivity</string>
+    <string name="title_activity_main_quick_print_help">MainQuickPrintHelpActivity</string>
+    <string name="firmware_update_caution">Disconnecting power or arbitrary operating during upgrade may cause failure of the device.</string>
+    <string name="title_activity_main_edit_print_help">MainEditPrintHelpActivity</string>
+    <string name="title_activity_vie2_edit_help">Vie2EditHelpActivity</string>
+    <!-- add setting string 150102 -->
+    <string name="setting_NFC">NFC</string>
+    <string name="setting_Help">Help</string>
+    <string name="setting_Bluetooth">Bluetooth</string>
+    <string name="setting_More">More</string>
+    <!--SV text size-->
+    <string name="sv_text_menu_size_small">Small</string>
+    <string name="sv_text_menu_size_medium">Medium</string>
+    <string name="sv_text_menu_size_large">Large</string>
+    <string name="sv_text_menu_bold">Bold</string>
+    <string name="sv_text_menu_italic">Italic</string>
+    <string name="url">URL</string>
+    <string name="record">Record</string>
+    <string name="save">Save</string>
+    <!--    <string name="cancel">Cancel</string>-->
+    <string name="rotate">Rotate</string>
+    <string name="create_from_camera">Create From Camera</string>
+    <string name="create_from_gallery">Create From Gallery</string>
+    <string name="select">Select</string>
+    <string name="application_terms_of_service">Application Terms of Service</string>
+    <string name="open_source_licenses">Open Source License</string>
+    <string name="legal">Legal</string>
+    <string name="manual_download">Manual</string>
+    <string name="sv_play">Secret View Play</string>
+    <string name="buy_paper">Buy Paper</string>
+    <string name="help">Help</string>
+    <string name="update">Update</string>
+    <string name="auto_power_off">Auto Power Off</string>
+    <string name="device_information">Device Info</string>
+    <string name="title">Title</string>
+    <string name="des">Des</string>
+    <string name="fw_version_str">Fw version</string>
+    <string name="version_size_str">Fw size</string>
+    <string name="mega_byte">MB</string>
+    <string name="ok">OK</string>
+    <string name="fw_version">fw_version</string>
+    <string name="down_load">Download</string>
+    <string name="off">Off</string>
+    <string name="nfc">NFC</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="about_device_title">About Device</string>
+    <string name="device_name">image box</string>
+    <string name="app_version">App version</string>
+    <string name="tmd_version">Tmd version</string>
+    <string name="printed_number">Number</string>
+    <string name="battery">Battery</string>
+    <string name="alert_the_update_was_completed">Update success</string>
+    <string name="new_fw_download">FW down</string>
+    <string name="now_install">Now Install</string>
+    <string name="new_fw_now_install">New Install</string>
+    <string name="new_tmd_download">New TMD</string>
+    <string name="tmd_version_str">TMD Version</string>
+    <!--    <string name="fw_update_download">Firmware Downloading</string>-->
+    <!--    <string name="fw_update_download_contents">Now firmware file downloading...</string>-->
+    <string name="tmd_update_download">TMD Downloading</string>
+    <string name="tmd_update_download_contents">Now TMD file downloading...</string>
+    <string name="processing">Processing...</string>
+    <string name="alert_the_update_progress">Now installing… Please wait for device power-off.</string>
+    <string name="on">On</string>
+    <string name="edit">Edit</string>
+    <string name="reader">Reader</string>
+    <string name="take_a_picture">Camera</string>
+    <string name="gallery_pick">Gallery</string>
+    <string name="waiting">Waiting...</string>
+    <string name="input_text">Input text</string>
+    <string name="passwd">Password</string>
+    <string name="passwd_confirm">Confirm password</string>
+    <string name="print">Print</string>
+    <string name="code_read_fail">Code read fail</string>
+    <string name="code_read_fail_2">Please try it again.</string>
+    <string name="retry">Retry</string>
+    <string name="paper_full">Paper full</string>
+    <string name="image_full">Image full</string>
+    <string name="device_setting">Device setting</string>
+    <string name="connection_setting">Connection setting</string>
+    <string name="auto_exposure">Auto Exposure</string>
+    <string name="connected">Connected</string>
+    <string name="print_mode">Print mode</string>
+    <string name="device_list_connect">connect</string>
+    <!--    <string name="fw_file_send">Firmware file transfer</string>-->
+    <string name="fw_file_send">Update in progress</string>
+    <string name="tmd_file_send">TMD file transfer</string>
+    <string-array name="min_array">
+        <item>off</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <!--namecard hint text-->
+    <string name="hint_first_name">Name</string>
+    <string name="hint_second_name">Second Name</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_address_one">Address Line 1</string>
+    <string name="hint_address_two">Address Line 2</string>
+    <string name="connecting_dot">Connecting...</string>
+    <string name="permission_denied_forever_message">We need some of the permissions you rejected or the system failed to apply failed, please manually set to the page authorize, otherwise the function can\'t be used normally!</string>
+    <string name="permission_rationale_message">You have rejected us to apply for authorization, please agree to authorization, otherwise the function can\'t be used normally!</string>
+    <string name="keyboard_hide_soft_input">Hide Soft Input</string>
+    <string name="keyboard_show_soft_input">Show Soft Input</string>
+    <string name="keyboard_toggle_soft_input">Toggle Soft Input</string>
+    <string name="keyboard_close_dialog">Close Dialog</string>
+
+    <!--<string name="open_source_license_body">Open Source License </string>-->
+    <string name="open_source_license_body" formatted="false">
+    <![CDATA[
+    <h1> <b>Open Source License</b> </h1>
+    <h3>image box</h3>
+
+    <h4> License : Apache License v2.0 </h4>
+    <p>Version 2.0, January 2004</p>
+    <p>http://www.apache.org/licenses/ </p>
+    <p>TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
+    <p>1. Definitions.</p>
+    <p>"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.</p>
+<p>"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.</p>
+    <p>"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.</p>
+    <p>"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.</p>
+    <p>"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.</p>
+    <p>"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.</p>
+    <p>"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).</p>
+    <p>"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.</p>
+    <p>"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."</p>
+    <p>"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.</p>
+<p>2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</p>
+    <p>3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.</p>
+    <p>4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:</p>
+    <p>a.You must give any other recipients of the Work or Derivative Works a copy of this License; and</p>
+    <p>b.You must cause any modified files to carry prominent notices stating that You changed the files; and</p>
+    <p>c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and</p>
+<p>d.If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. </p>
+    <p>You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License. </p>
+    <p>5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</p>
+    <p>6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</p>
+    <p>7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</p>
+<p>8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</p>
+    <p>9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</p>
+
+    <p>END OF TERMS AND CONDITIONS</p>
+    <p>APPENDIX: How to apply the Apache License to your work</p>
+    <p>To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don\'t include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.</p>
+    <p>Copyright [yyyy] [name of copyright owner] </p>
+    <p>Licensed under the Apache License, Version 2.0 (the "License");</p>
+    <p>you may not use this file except in compliance with the License.</p>
+    <p>You may obtain a copy of the License at</p>
+
+    <p>    http://www.apache.org/licenses/LICENSE-2.0</p>
+
+    <p>Unless required by applicable law or agreed to in writing, software</p>
+    <p>distributed under the License is distributed on an "AS IS" BASIS,</p>
+    <p>WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</p>
+    <p>See the License for the specific language governing permissions and</p>
+    <p>limitations under the License.</p>
+
+    <h4> Components  </h4>
+    <p>android jnuit4-0.3 Apache Maven
+    <br /> guavalib 1.6.0_31 (Apple Inc.)
+    <br /> android-support-v4 1.6.0_26 (Sun Microsystems Inc.)
+    <br /> com.github.bumptech.glide:glide:3.7.0
+    <br /> com.victor:lib:1.0.4
+<br /> de.hdodenhof:circleimageview:2.1.0
+    <br /> info.hoang8f:android-segmented:1.0.6
+    <br /> com.github.jlmd:AnimatedCircleLoadingView:1.1.5@aar
+    <br /> com.fenchtose:tooltip:0.1.5
+
+    </p>
+    <p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />  end</p>
+
+    ]]>
+
+    </string>
+    <string name="agree">Agree</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="need_for_gps">Location information is turned off. Printer search is possible only when location information is provided. will you do it?</string>
+    <string name="no_firmware_check">Hide firmware check screen</string>
+    <string name="tx_firmware_notice">\nPlease update the firmware to the latest version.\n(F/W update: Connection settings → Update)</string>
+    <string name="goto_Preview">To Preview</string>
+    <string name="goto_Print">To Print</string>
+    <string name="goto_Setting">To Update</string>
+
+    <string name="channelId">123</string>
+    <string name="service_demo_tag">ServiceDemo</string>
+    <string name="string_stopservice">Stop Service</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- TODO KSystem: add UI new -->
+    <string name="tutorial_theme_title"><b>Theme</b></string>
+    <string name="tutorial_theme_detail">Give a nickname and decorate\n</string>
+    <string name="tutorial_theme_content">your image box with sticker.\n</string>
+    <string name="tutorial_theme_contentfull">Give a nickname and decorate your image box with sticker.</string>
+
+    <string name="tutorial_print_title"><b>Print</b></string>
+    <string name="tutorial_print_detail">Pick up the picture \n</string>
+    <string name="tutorial_print_content">that you like to print.\n</string>
+    <string name="tutorial_print_contentfull">Pick up the picture that you like to print.</string>
+
+    <string name="tutorial_iCamera_title"><b>iCamera</b></string>
+    <string name="tutorial_iCamera_detail">With NFC, simply tagging the printer makes\n</string>
+    <string name="tutorial_iCamera_content">your smartphone become an instant Camera.\n</string>
+    <string name="tutorial_iCamera_contentfull">With NFC, simply tagging the printer makes your smartphone become an instant Camera.</string>
+
+    <string name="tutorial_iTalk_title"><b>iTalk</b></string>
+    <string name="tutorial_iTalk_detail">iTalk will deliver your hidden \n</string>
+    <string name="tutorial_iTalk_content">message under QR Code.\n</string>
+    <string name="tutorial_iTalk_contentfull">iTalk will deliver your hidden message under QR Code.</string>
+
+    <string name="tutorial_iGift_title"><b>iGift</b></string>
+    <string name="tutorial_iGift_detail">iGift will provide diverse selections of picture\n</string>
+    <string name="tutorial_iGift_content">frames such as label, collage, sticker.\n</string>
+    <string name="tutorial_iGift_contentfull">iGift will provide diverse selections of picture frames such as label, collage, sticker.</string>
+
+    <string name="tutorial_next_button">Next</string>
+    <string name="tutorial_skip"><u>Skip</u></string>
+    <!-- TODO KSystem: Start Main -->
+    <string name="main_notify_print_ready">Printer is ready!</string>
+    <string name="main_notify_battery_low_percent">Battery Status (Level):</string>
+    <string name="main_notify_battery_lowing">Battery Low</string>
+    <string name="main_notify_device_no_paper">No paper</string>
+    <string name="main_notify_device_not_connect_bluetooth">Please connect to Bluetooth</string>
+    <string name="main_disconnect_device">Please connect\nto Device.</string>
+    <string name="main_connect">Connected</string>
+    <string name="main_not_connect">Not connected</string>
+    <string name="main_nick_name_disconnect">Please\nConnect to Bluetooth</string>
+    <string name="main_nick_name_default">Image box</string>
+    <string name="main_icamera">iCamera</string>
+    <string name="main_icamera_content">아이카메라</string>
+    <string name="main_italk">iTalk</string>
+    <string name="main_italk_content">아이톡</string>
+    <string name="main_igift">iGift</string>
+    <string name="main_igift_content">아이기프트</string>
+    <string name="main_gallery">Gallery</string>
+    <string name="main_sns">SNS</string>
+    <string name="main_last">Last</string>
+    <string name="main_multi_select">Multiple</string>
+    <string name="main_multi_select_chosen">Cancel</string>
+    <string name="main_title_not_image">No last print record.</string>
+    <string name="main_content_not_image">Instant print your moment.</string>
+
+    <string name="nfc_chosen">~ Please select</string>
+    <!-- TODO KSystem: End Main -->
+
+    <!-- TODO KSystem: iCamera -->
+    <!--    4 nuts treen ddau-->
+    <string name="name_icamera_mode">iCamera</string>
+    <string name="name_2cuts_mode">2Cuts</string>
+    <string name="name_1cut_mode">1Cut</string>
+    <string name="name_4pics_mode">4Pics</string>
+    <string name="icamera_time_off">OFF</string>
+    <string name="icamera_time_2">2sec</string>
+    <string name="icamera_time_5">5sec</string>
+    <string name="icamera_time_10">10sec</string>
+
+    <string name="icamera_mode3_time_2">2s</string>
+    <string name="icamera_mode3_time_5">5s</string>
+    <string name="icamera_mode3_time_10">10s</string>
+    <string name="icamera_gray_scale">Gray-scale</string>
+    <string name="icamera_sketch">Sketch</string>
+    <string name="icamera_miniature">Miniature</string>
+
+
+    <!-- TODO KSystem: End iCamera -->
+
+    <!-- TODO KSystem: iGift -->
+    <string name="i_gift_collage">Collage</string>
+    <string name="i_gift_phone_decoration">Phone</string>
+    <string name="i_gift_sticker">Sticker</string>
+    <string name="i_gift_label">Label</string>
+    <string name="i_gift_precut">Precut</string>
+
+    <!-- TODO KSystem: End iGift -->
+
+    <!-- TODO KSystem: iTalk -->
+    <string name="i_talk_image">Image</string>
+    <string name="i_talk_url">URL</string>
+    <string name="i_talk_voice">Voice</string>
+    <string name="i_talk_movie">Movie</string>
+
+    <!-- TODO KSystem: End iTalk -->
+
+    <!-- TODO KSystem: Basic print -->
+    <string name="basic_print_169">16:9</string>
+    <string name="basic_print_43">4:3</string>
+    <string name="basic_print_11">1:1</string>
+    <string name="basic_print_id_mode">ID Picture</string>
+
+    <!-- TODO KSystem: End basic print -->
+    <string name="sticker_download">Sticker Update</string>
+    <string name="battery_low_power">Low Battery</string>
+    <string name="battery_full_power">Battery charged!</string>
+    <string name="battery_low_power_percent">Battery Status (Level) : </string>
+    <string name="battery_is_low">Low battery</string>
+    <string name="confirm">Confirm</string>
+    <string name="dlg_close">Close</string>
+
+    <!-- TODO Ksystem: Setting -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_bluetooth1">Bluetooth</string>
+    <string name="setting_bluetooth2">Bluetooth</string>
+    <string name="setting_NFC1">NFC</string>
+    <string name="setting_NFC2">NFC Tag</string>
+    <string name="setting_zink1">Natural Mode</string>
+    <string name="setting_zink2">Natural Mode</string>
+    <string name="setting_imageFrame1">Image Frame</string>
+    <string name="setting_imageFrame2">Image Frame</string>
+    <string name="setting_power">Auto Power OFF</string>
+    <string name="setting_device_title">Device Information</string>
+    <string name="setting_device_1">IB-100</string>
+    <string name="setting_device_2">version 0.0.1</string>
+    <string name="setting_device_3">Firmware version 0.0.1</string>
+    <string name="setting_device_4">Paper Iformation</string>
+    <string name="setting_device_5">There is an updated version(0.0.2).</string>
+    <string name="setting_device_btn">Update</string>
+    <string name="setting_buy_paper_title">Paper purchase</string>
+    <string name="setting_buy_paper_1">Naver</string>
+    <string name="setting_buy_paper_1_cost">49,200won</string>
+    <string name="setting_buy_paper_1_button">Purchase ></string>
+    <string name="setting_buy_paper_2">Cupang</string>
+    <string name="setting_buy_paper_2_cost">44,200won</string>
+    <string name="setting_buy_paper_2_button">Purchase ></string>
+    <string name="setting_print_method_form_title">Print method</string>
+    <string name="setting_print1">1. ~~하세요.</string>
+    <string name="setting_license_form_title">Open source license</string>
+    <string name="setting_give_a_gift">Give a gift</string>
+    <string name="print_timeout">Data sending time out. \nDo you want to reprint?</string>
+    <string name="dialog_nopaper_title">Please load a new paper pack</string>
+    <string name="dialog_misfeed_title">Please reload a paper pack</string>
+    <string name="dialog_nopaper_content">Put the paper into the paper tray.</string>
+    <string name="dialog_misfeed_content">Reload the paper in the paper tray.</string>
+
+    <!-- (#1064) Added Paper Jam event screen -->
+    <string name="dialog_paperjam_title">Paper Jam</string>
+    <string name="dialog_paperjam_content">The Jammed paper will come out \nafter re-turn on the printer.</string>
+    <string name="clear_sheet">Cleaning Sheet</string>
+    <string name="clear_sheet_content">A cleaning sheet is coming out.</string>
+
+    <!--2023-02-03-->
+    <string name="need_update"><em>There is updated version.</em></string>
+    <string name="update_request">Please update new F/W for better user experience.</string>
+    <string name="fw_update_download">Update in progress</string>
+    <string name="fw_update_download_contents">Update is in progress.</string>
+
+    <!-- 1070-->
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="angle">Angle</string>
+    <string name="initial_template_contents">All the created contents will be disappeared.</string>
+    <string name="terms_use">Terms of Use</string>
+    <string name="minutes5">5min</string>
+    <string name="minutes10">10min</string>
+
+    <!--#1070-->
+    <string name="text_limit">Length limit!</string>
+
+    <!--#1071-->
+    <string name="sticker_design">Sticker design</string>
+    <string name="background">Background</string>
+    <string name="please_make_nickname">Nice to meet you! 👋🏻\nPlease give me a nickname.</string>
+    <string name="not_login">No login</string>
+    <string name="max_character">image box</string>
+    <string name="bluetooth_list">Bluetooth list</string>
+    <string name="firmware">Firmware </string>
+    <string name="new_version"> new version</string>
+    <string name="queue_list">Queue </string>
+
+    <string name="initialize">Initialize</string>
+    <string name="content_cooling_mode">Image box is too hot,\nand it needs a break for a min.</string>
+    <string name="go_back">Go back</string>
+    <string name="print_the_same_picture">Print</string>
+
+    <string name="printqueue_warning"><b>Do you want to keep printing the image on queue?</b></string>
+    <string name="printqueue_warning_content"></string>
+
+    <string name="notify_max_print">You can only print a maximum of 3 photos!</string>
+    <string name="italk_no_image">(Image for QR reader) The image on the screen is required</string>
+    <string name="italk_no_url">Please enter the URL</string>
+    <string name="italk_no_recording">Please create a recording</string>
+    <string name="italk_no_movie">Please select a movie</string>
+    <string name="italk_qrread_text">Screen for entering image into QR</string>
+    <string name="italk_qrread_url">Screen for entering URL in QR</string>
+    <string name="italk_qrread_voice">Screen for recording voice in QR</string>
+    <string name="italk_qrread_movie">Screen entering Movie in QR</string>
+    <string name="italk_print">Print</string>
+    <string name="italk_qr_preview">QR Preview</string>
+    <string name="italk_goto_url">Scan QR code, and it leads to URL address.</string>
+    <string name="italk_type_search_word">Keyword for Youtube video</string>
+    <string name="italk_select_video">Select the video played with QR reader</string>
+    <string name="italk_voice_play">The pre-recorded voice is played with QR reader</string>
+    <string name="igift_type_text">Enter text</string>
+    <string name="italk_for_printing">For Printing</string>
+
+    <string name="italk_type_link">Enter website link</string>
+
+    <string name="update_app_title">Latest version update</string>
+    <string name="update_app_detail">Visit the store to update the latest app version</string>
+
+    <string name="igift_notify_addimages">Please add all photos before printing</string>
+    <string name="italk_webview_movie">Apply</string>
+    <string name="progressing"> Progressing</string>
+    <string name="decorate_stickers">Decorate with stickers</string>
+    <string name="sticker_design_reset">All the customized contents will be reset.</string>
+
+    <string name="auto">Auto</string>
+    <string name="icamera_time_on">ON</string>
+    <string name="igift_notify_select_image">Please select an image</string>
+    <string name="printing_wait">Printing, please wait...</string>
+
+    <string name="ssl_continue">Continue</string>
+    <string name="ssl_date_invalid">The date of the certificate is invalid</string>
+    <string name="ssl_invalid">A generic error occurred</string>
+    <string name="ssl_expired">The certificate has expired</string>
+    <string name="ssl_idmismatch">Hostname mismatch</string>
+    <string name="ssl_notyetvalid">The certificate is not yet valid</string>
+    <string name="ssl_untrusted">The certificate authority is not trusted</string>
+    <string name="main_more">More</string>
+
+    <string name="igift_apply_all">Apply all</string>
+    <string name="igift_reselect_img">Image change</string>
+
+    <string name="content_cooling_mode_1">Image box is too hot,\nand it needs a break for a min</string>
+    <string name="content_high_temperature_mode_1">The internal temperature of the image box is high.\nThe temperature is being lowered.</string>
+    <string name="notify_system_error_0x07">System error. Please restart the printer. <i>Error code: (0x07)</i></string>
+
+    <string name="please_enter_youtube_search_term">Please enter youtube search term</string>
+    <string name="please_enter_url">Please enter url</string>
+    <string name="please_select_a_photo">Please select a photo</string>
+
+    <string name="please_record_an_audio">Please record an audio</string>
+    <string name="igift_type_text_vertical">E\nn\nt\ne\nr</string>
+    <string name="FontItemDefaultText">Aa</string>
+    <string name="italk_voice_stop">Stop</string>
+    <string name="italk_voice_re_record">Re-record</string>
+
+    <string name="saved_image_fragment_i_talk">iTalk</string>
+    <string name="saved_image_fragment_i_gift">iGift</string>
+    <string name="saved_image_fragment_i_camera">iCamera</string>
+    <string name="saved_image_fragment_gallery">Photo</string>
+
+    <string name="igift_label_copy_title">Please select the pattern to copy</string>
+    <string name="igift_label_copy_title1">Please select the pattern to apply</string>
+    <string name="igift_label_copy_cancel">Cancel</string>
+    <string name="igift_label_copy_apply">Apply</string>
+
+    <string name="device_update_lasest_version">This is the latest version.</string>
+    <string name="igift_notify_insert_text">Add a label before printing</string>
+    <string name="set_name_error">Name setting Error!</string>
+    <string name="no_photo_selected">No photo selected</string>
+    <string name="qr_text_guide">Please, Add an image to be displayed when QR reader</string>
+    <string name="sns_sign_out">Do you want to disconnect from SNS?</string>
+    <string name="edit_phrase">Please\ninsert text</string>
+    <string name="edit_phrase_hint">Please insert text</string>
+    <string name="edit_phrase_warning">Please enter the content</string>
+    <string name="faq">Frequently Asked Questions (FAQ)</string>
+    <string name="setting_customer_service">CS Center</string>
+
+    <string name="filter_grayscale">Gray scale</string>
+    <string name="filter_monochrome">Monochromatic</string>
+    <string name="filter_sepia">Sepia</string>
+    <string name="filter_sketch">Sketch</string>
+    <string name="filter_smooth_toon">Soft Toon</string>
+    <string name="filter_vignette">Illustrations</string>
+    <string name="filter_zoom_out">Convex</string>
+    <string name="filter_zoom_in">Concave</string>
+    <string name="filter_swirl">Whirlpool</string>
+    <string name="filter_default">Original</string>
+    <string name="connection_fail">Connection failed</string>
+    <string name="connection_full_content">Current party mode\nMaximum connection status.\n(Maximum 3 people)</string>
+    <string name="firmware_not_found">There is no firmware information</string>
+    <string name="video_gallery">Video gallery</string>
+    <string name="italk_movie_upload_10secs">Please upload the video within 10 seconds</string>
+    <string name="italk_movie_upload_format">Video format does not match</string>
+    <string name="italk_movie_wait_for_download">Please wait for downloading</string>
+</resources>

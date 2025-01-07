@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image box</string>
+    <string name="msg_default_status">Please take a picture within the viewfinder rectangle.</string>
+    <string name="imagefiler_original">original</string>
+    <string name="imagefiler_sepia">sepia</string>
+    <string name="imagefiler_HDR">Ani</string>
+    <string name="imagefiler_retro">retro</string>
+    <string name="imagefiler_graytone">graytone</string>
+    <string name="imagefiler_instafix">instafix</string>
+    <string name="imagefiler_invert">invert</string>
+    <string name="imagefiler_testino">testino</string>
+    <string name="imagefiler_ansel">ansel</string>
+    <string name="imagefiler_cyano">cyano</string>
+    <string name="imagefiler_georgia">georgia</string>
+    <string name="imagefiler_sahara">sahara</string>
+    <string name="imagefilter_original">original</string>
+    <string name="imagefilter_gray">gray</string>
+    <string name="imagefilter_anim">anim</string>
+    <string name="imagefilter_slumber">slumber</string>
+    <string name="imagefilter_peach">peach</string>
+    <string name="imagefilter_snow">snow</string>
+    <string name="imagefilter_daily">daily</string>
+    <string name="imagefilter_light">light</string>
+    <string name="imagefilter_chic">chic</string>
+    <string name="imagefilter_spring">spring</string>
+    <string name="imagefilter_cherry">cherry</string>
+    <string name="imagefilter_happy">happy</string>
+    <string name="imagefilter_frozen">frozen</string>
+    <string name="Category_sticker00">icon_stiker_animal</string>
+    <string name="Category_sticker01">icon_stiker_event</string>
+    <string name="Category_sticker02">icon_stiker_face</string>
+    <string name="Category_sticker03">icon_stiker_food</string>
+    <string name="Category_sticker04">icon_stiker_object</string>
+    <string name="Category_sticker05">icon_stiker_weather</string>
+    <string name="Category_sticker06">icon_stiker_frame</string>
+    <!--  add frame  -->
+    <string name="img_frame00">frame_dot_001</string>
+    <string name="img_frame01">frame_dot_001</string>
+    <string name="img_frame02">frame_triangle_001</string>
+    <string name="img_frame03">frame_polaroid_001</string>
+    <string name="img_frame04">frame_rain_001</string>
+    <string name="img_frame05">frame_film_001</string>
+    <string name="img_frame06">frame_heart_001</string>
+    <string name="img_frame07">frame_ribbon_001</string>
+    <string name="img_frame08">frame_leaf_001</string>
+    <string name="img_frame09">frame_wedding_001</string>
+    <string name="img_frame10">frame_magazine_001</string>
+    <string name="img_frame11">frame_emphasis_001</string>
+    <string name="img_frame12">frame_newyear_001</string>
+    <string name="img_frame13">frame_night_001</string>
+    <string name="img_frame14">frame_summer_001</string>
+    <string name="img_frame15">frame_birthday_002</string>
+    <string name="img_frame16">frame_birthday_001</string>
+    <string name="img_frame17">frame_helloween_001</string>
+    <string name="img_frame_icon00">img_frame_a001</string>
+    <string name="img_frame_icon01">icon_frame_dot_001_48</string>
+    <string name="img_frame_icon02">icon_frame_triangle_001_48</string>
+    <string name="img_frame_icon03">icon_frame_polaroid_001_48</string>
+    <string name="img_frame_icon04">icon_frame_rain_001_48</string>
+    <string name="img_frame_icon05">icon_frame_film_001_48</string>
+    <string name="img_frame_icon06">icon_frame_heart_001_48</string>
+    <string name="img_frame_icon07">icon_frame_ribbon_001_48</string>
+    <string name="img_frame_icon08">icon_frame_leaf_001_48</string>
+    <string name="img_frame_icon09">icon_frame_wedding_001_48</string>
+    <string name="img_frame_icon10">icon_frame_magazine_001_48</string>
+    <string name="img_frame_icon11">icon_frame_emphasis_001_48</string>
+    <string name="img_frame_icon12">icon_frame_newyear_001_48</string>
+    <string name="img_frame_icon13">icon_frame_night_001_48</string>
+    <string name="img_frame_icon14">icon_frame_summer_001_48</string>
+    <string name="img_frame_icon15">icon_frame_birthday_002_48</string>
+    <string name="img_frame_icon16">icon_frame_birthday_001_48</string>
+    <!-- <string name="img_frame_icon17">icon_frame_helloween_001_48</string> -->
+    <!--  DeviceListActivity  -->
+    <string name="scanning">デバイス検索中...</string>
+    <string name="select_device">接続するデバイスを選択</string>
+    <string name="none_paired">接続中のデバイスなし</string>
+    <string name="none_found">見つかったデバイスなし</string>
+    <string name="title_paired_devices">ペアリング済みのデバイス</string>
+    <string name="title_other_devices">接続可能なデバイス</string>
+    <string name="button_scan">デバイスを検索</string>
+    <!--  Options Menu  -->
+    <string name="connect">デバイスを接続</string>
+    <string name="discoverable">接続を作成</string>
+    <!--  Alert Msg Can't use camera low battery!  -->
+    <string name="out_of_memory">空きメモリなし</string>
+    <string name="out_of_memory_save">空きメモリなし</string>
+    <string name="unuse_camera">バッテリ残量低下。カメラ使用不可。</string>
+    <string name="mobile_network_error">通信ネットワークに接続できません</string>
+    <string name="app_exit">アプリを終了しますか？</string>
+    <string name="device_connect_error">image boxに接続不可</string>
+    <string name="print_cancel">プリントをキャンセル</string>
+    <string name="send_img_error">写真転送エラー発生。</string>
+    <string name="print_error">プリントエラー発生。</string>
+    <string name="vie_delete">秘密の写真を削除しますか？</string>
+    <string name="passwd_delete">パスワードを削除しますか？</string>
+    <string name="voice_delete">音声録音を削除しますか？</string>
+    <string name="url_delete">URLを削除しますか？</string>
+    <string name="phone_delete">電話番号を削除しますか？</string>
+    <string name="url_def_error">有効ではないアドレス</string>
+    <string name="add_passwd_error">パスワードエラー発生</string>
+    <string name="passwd_match_error">パスワード相違。再試行。</string>
+    <string name="bluetooth_not_support">Bluetooth使用不可。</string>
+    <string name="capure_camera_version">Android OSのバージョンを確認してください</string>
+    <string name="vie_server_connecting">サーバーに接続</string>
+    <string name="print_msg_01">プリント終了まで接続を維持</string>
+    <string name="print_msg_02">プリンターへの転送完了</string>
+    <string name="print_msg_03">プリンターに転送中</string>
+    <string name="print_msg_04">プリント中</string>
+    <string name="print_msg_05">プリント終了</string>
+    <string name="businesscard_max_limit_text">30文字以内で入力</string>
+    <string name="businesscard_max_limit_text2">26文字以内で入力</string>
+    <string name="image_no_support">対応していない画像</string>
+    <string name="invalid_data">アプリバージョンを確認</string>
+    <!-- <string name="server_timeout"></string> -->
+    <string name="print_image_error">プリント写真エラー発生</string>
+    <string name="voice_streaming">録音再生準備中。お待ちください。</string>
+    <string name="size_no_support">240ピクセルより大きい必要があります</string>
+    <string name="select_print">プリンターに接続されていません。\n接続を確認してください</string>
+    <string name="sns_disconnection">SNS連携を解除します</string>
+    <string name="print_msg_new_01">画像を転送</string>
+    <string name="print_msg_new_02">画像転送完了</string>
+    <string name="print_msg_new_03">プリント中</string>
+    <string name="checkbox_error">すべてのチェックボックスが選択されていません</string>
+    <string name="select_error">選択された画像がありません</string>
+    <!--  Custom Dialog Msg  -->
+    <string name="info"> INFORMATION </string>
+    <string name="error"> ERROR </string>
+    <string name="warning" />
+    <string name="exit">EXIT</string>
+    <string name="VER_CHECK"> VERSION </string>
+    <string name="delete">削除</string>
+    <string name="firmware_update">ファームウェアアップデート</string>
+    <string name="Update_completed">アップデート成功</string>
+    <string name="Update_failed">アップデート失敗</string>
+    <string name="downloading">ダウンロード中</string>
+    <string name="Preparing_Update">ダウンロード準備中</string>
+    <string name="Check_version">アップデートを確認</string>
+    <string name="Verfiy_version">アップデートを検証</string>
+    <string name="printcancel">プリントをキャンセル</string>
+    <string name="exitofapp">アプリを終了</string>
+    <string name="max_30">30文字以内で入力</string>
+    <string name="max_26">26文字以内で入力</string>
+    <string name="server_connect_error">サーバーエラー発生</string>
+    <string name="create_image_error">画像ファイルの生成に失敗</string>
+    <string name="bt_disconnect">Bluetooth接続が終了しました。</string>
+    <string name="unable_bt">Bluetoothが使用できません。</string>
+    <string name="vie_help_1">「Secret View」モードでは、画像の中に秘密のメッセージを入れることができます。</string>
+    <string name="vie_help_2">「Secret View Creation」アイコンで、シークレットメッセージを作成することができます。</string>
+    <string name="vie_help_3">シークレットメッセージに使われたテキストや絵文字、録音などは、プリントされた画像には表示されません。</string>
+    <string name="vie_help_4">「Secret View Image Reader」でシークレットメッセージを読むことがきます。</string>
+    <string name="vie_help_5">[削除]ボタンを押すと、画像の上にチェックボックスが表示されます。</string>
+    <string name="vie_help_6">チェックボックスを選択して[削除]ボタンを押すと、削除が完了します。</string>
+    <string name="vie_help_7">The see the secret message use the icon of </string>
+    <string name="vie_help_8">
+<![CDATA[ """ ]]>
+Secret view image Reader
+<![CDATA[ """ ]]>
+</string>
+    <!--  Others  -->
+    <string name="anyStringValue">anyStringValue</string>
+    <string name="title_activity_fun_collage_help">FunCollageHelpActivity</string>
+    <string name="bluetooth_search">Scanning for new devices.</string>
+    <string name="title_activity_fun_businesscard_help">FunBusinesscardHelpActivity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="action_settings">Settings</string>
+    <!--  Main menu text  -->
+    <string name="menu_quick_print">Quick Print</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_edit_print">Edit Print</string>
+    <string name="menu_name_card">Name Card</string>
+    <string name="menu_secret_view">Secret View</string>
+    <string name="menu_collage">Collage</string>
+    <!--  Error code  -->
+    <string name="error_code_idle">Idle</string>
+    <string name="error_code_busy">プリント中です！</string>
+    <string name="other_print_status">複数のユーザーがプリント中です！</string>
+    <string name="error_code_paper_jam">Paper Jam</string>
+    <string name="error_code_paper_empty">Paper Empty</string>
+    <string name="error_code_paper_mismatch">Paper Mismatch</string>
+    <string name="error_code_data_error">Data Error</string>
+    <string name="error_code_cover_open">Cover Open</string>
+    <string name="error_code_system_error">System Error</string>
+    <string name="error_code_battery_low">Battery Low</string>
+    <string name="error_code_battery_fault">Battery Fault</string>
+    <string name="error_code_high_temperature">High Temperature</string>
+    <string name="error_code_low_temperature">Low Temperature</string>
+    <string name="error_code_cooling_mode">Cooling Mode</string>
+    <string name="error_code_send_data_cancel">Send Data Cancel</string>
+    <string name="error_code_wrong_customer">Wrong Customer</string>
+    <string name="error_code_usb_connected">USB Connected</string>
+    <string name="error_code_cleaning_sheet">Cleaning sheet排出中</string>
+    <string name="title_activity_main_edit_help">MainEditHelpActivity</string>
+    <string name="title_activity_vie_camera_capture_help">VieCameraCaptureHelpActivity</string>
+    <string name="title_activity_qrcode_scan_help">QRcodeScanHelpActivity</string>
+    <!--  add string  -->
+    <string name="sv_reader_qr_scan">ビューファインダーに合わせて撮影してください。</string>
+    <string name="hint_page_checkbox">表示を希望しない場合はチェックを入れてください。</string>
+    <string name="hint_page_checkbox_checked">ヘルプページを表示しません。</string>
+    <string name="hint_page_checkbox_unchecked">Show help.</string>
+    <string name="power_check">Check the power of image box.</string>
+    <string name="unsupported_nfc">This page doesn`t support NFC automatic printing. If you want automatic printing, please go back to previous page and tag it again.</string>
+    <!--  add string 141028  -->
+    <string name="nfc_auto_print">自動プリントを開始します。</string>
+    <string name="title_activity_setting01_help">Setting01HelpActivity</string>
+    <string name="title_activity_main_quick_print_help">MainQuickPrintHelpActivity</string>
+    <string name="firmware_update_caution">Disconnecting power or arbitrary operating during upgrade may cause failure of the device.</string>
+    <string name="title_activity_main_edit_print_help">MainEditPrintHelpActivity</string>
+    <string name="title_activity_vie2_edit_help">Vie2EditHelpActivity</string>
+    <!--  add setting string 150102  -->
+    <string name="setting_NFC">NFC</string>
+    <string name="setting_Help">Help</string>
+    <string name="setting_Bluetooth">Bluetooth</string>
+    <string name="setting_More">More</string>
+    <!-- SV text size -->
+    <string name="sv_text_menu_size_small">Small</string>
+    <string name="sv_text_menu_size_medium">Medium</string>
+    <string name="sv_text_menu_size_large">Large</string>
+    <string name="sv_text_menu_bold">Bold</string>
+    <string name="sv_text_menu_italic">Italic</string>
+    <string name="url">URL</string>
+    <string name="record">録音</string>
+    <string name="save">Save</string>
+    <!--     <string name="cancel">Cancel</string> -->
+    <string name="rotate">回転</string>
+    <string name="create_from_camera">カメラから取り込む</string>
+    <string name="create_from_gallery">ギャラリーから取り込む</string>
+    <string name="select">選択</string>
+    <string name="application_terms_of_service">サービス規約</string>
+    <string name="open_source_licenses">オープンソースライセンス</string>
+    <string name="legal">法的告知事項</string>
+    <string name="manual_download">マニュアル</string>
+    <string name="sv_play">シークレットビュープレイ</string>
+    <string name="buy_paper">用紙購入</string>
+    <string name="help">ヘルプ</string>
+    <string name="update">アップデート</string>
+    <string name="auto_power_off">自動電源OFF</string>
+    <string name="device_information">デバイス情報</string>
+    <string name="title">タイトル</string>
+    <string name="des">説明文 </string>
+    <string name="fw_version_str">Fw version</string>
+    <string name="version_size_str">Fw size</string>
+    <string name="mega_byte">MB</string>
+    <string name="ok">OK</string>
+    <string name="fw_version">FWバージョン</string>
+    <string name="down_load">ダウンロード</string>
+    <string name="off">オフ</string>
+    <string name="nfc">NFC</string>
+    <string name="disconnected">接続解除</string>
+    <string name="about_device_title">デバイスについて</string>
+    <string name="device_name">image box</string>
+    <string name="app_version">アプリバージョン</string>
+    <string name="tmd_version">TMDバージョン</string>
+    <string name="printed_number">合計プリント</string>
+    <string name="battery">バッテリー</string>
+    <string name="alert_the_update_was_completed">アップデート成功</string>
+    <string name="new_fw_download">ファームウェアをダウンロード</string>
+    <string name="now_install">今すぐにインストール</string>
+    <string name="new_fw_now_install">新規インストール</string>
+    <string name="new_tmd_download">新規TMD</string>
+    <string name="tmd_version_str">TMDバージョン</string>
+    <!--   <string name="fw_update_download_contents">ただいまファームウェアをダウンロード中…</string> -->
+    <!--   <string name="fw_update_download_contents">Now firmware file downloading...</string> -->
+    <string name="tmd_update_download">TMDダウンロード中</string>
+    <string name="tmd_update_download_contents">ただいまTMDファイルをダウンロード中…</string>
+    <string name="processing">処理中…</string>
+    <string name="alert_the_update_progress">ただいまインストール中…\nデバイスの電源がオフになるまでお待ちください。</string>
+    <string name="on">オン</string>
+    <string name="edit">編集</string>
+    <string name="reader">取り込み</string>
+    <string name="take_a_picture">カメラ</string>
+    <string name="gallery_pick">ギャラリー</string>
+    <string name="waiting">待機中…</string>
+    <string name="input_text">テキストを入力</string>
+    <string name="passwd">パスワード</string>
+    <string name="passwd_confirm">パスワード(確認)</string>
+    <string name="print">プリント</string>
+    <string name="code_read_fail">コードの読み込みに失敗</string>
+    <string name="code_read_fail_2">もう一度お試しください。</string>
+    <string name="retry">再試行</string>
+    <string name="paper_full">用紙に合わせる</string>
+    <string name="image_full">画像に合わせる</string>
+    <string name="device_setting">デバイス設定</string>
+    <string name="connection_setting">接続設定</string>
+    <string name="auto_exposure">自動露出</string>
+    <string name="connected">接続済み</string>
+    <string name="print_mode">プリントモード</string>
+    <string name="device_list_connect">接続</string>
+    <!--   <string name="fw_file_send">ファームウェアを転送</string> -->
+    <string name="fw_file_send">アップデート進行中</string>
+    <string name="tmd_file_send">TMDファイルを転送</string>
+    <string-array name="min_array">
+        <item>off</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <!-- namecard hint text -->
+    <string name="hint_first_name">お名前</string>
+    <string name="hint_second_name">お名前2</string>
+    <string name="hint_phone">電話番号</string>
+    <string name="hint_email">電子メール</string>
+    <string name="hint_address_one">住所1</string>
+    <string name="hint_address_two">住所2</string>
+    <string name="connecting_dot">接続中...</string>
+    <string name="permission_denied_forever_message">必要な機能に対する承認が拒否されました。承認に同意しない場合は、機能を使用することができません。</string>
+    <string name="permission_rationale_message">承認のリクエストが拒否されました。承認に同意しない場合は、機能を正常に使用することができません。</string>
+    <string name="keyboard_hide_soft_input">Hide Soft Input</string>
+    <string name="keyboard_show_soft_input">Show Soft Input</string>
+    <string name="keyboard_toggle_soft_input">Toggle Soft Input</string>
+    <string name="keyboard_close_dialog">Close Dialog</string>
+    <!-- <string name="open_source_license_body">Open Source License </string> -->
+    <string name="open_source_license_body" formatted="false">
+<![CDATA[ <h1> <b>Open Source License</b> </h1> <h3>image box</h3> <h4> License : Apache License v2.0 </h4> <p>Version 2.0, January 2004</p> <p>http://www.apache.org/licenses/ </p> <p>TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p> <p>1. Definitions.</p> <p>"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.</p> <p>"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.</p> <p>"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.</p> <p>"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.</p> <p>"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.</p> <p>"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.</p> <p>"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).</p> <p>"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.</p> <p>"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."</p> <p>"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.</p> <p>2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.</p> <p>3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.</p> <p>4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:</p> <p>a.You must give any other recipients of the Work or Derivative Works a copy of this License; and</p> <p>b.You must cause any modified files to carry prominent notices stating that You changed the files; and</p> <p>c.You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and</p> <p>d.If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. </p> <p>You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License. </p> <p>5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</p> <p>6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.</p> <p>7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.</p> <p>8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.</p> <p>9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.</p> <p>END OF TERMS AND CONDITIONS</p> <p>APPENDIX: How to apply the Apache License to your work</p> <p>To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don\'t include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.</p> <p>Copyright [yyyy] [name of copyright owner] </p> <p>Licensed under the Apache License, Version 2.0 (the "License");</p> <p>you may not use this file except in compliance with the License.</p> <p>You may obtain a copy of the License at</p> <p> http://www.apache.org/licenses/LICENSE-2.0</p> <p>Unless required by applicable law or agreed to in writing, software</p> <p>distributed under the License is distributed on an "AS IS" BASIS,</p> <p>WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</p> <p>See the License for the specific language governing permissions and</p> <p>limitations under the License.</p> <h4> Components </h4> <p>android jnuit4-0.3 Apache Maven <br /> guavalib 1.6.0_31 (Apple Inc.) <br /> android-support-v4 1.6.0_26 (Sun Microsystems Inc.) <br /> com.github.bumptech.glide:glide:3.7.0 <br /> com.victor:lib:1.0.4 <br /> de.hdodenhof:circleimageview:2.1.0 <br /> info.hoang8f:android-segmented:1.0.6 <br /> com.github.jlmd:AnimatedCircleLoadingView:1.1.5@aar <br /> com.fenchtose:tooltip:0.1.5 </p> <p> <br /> <br /> <br /> <br /> <br /> end</p> ]]>
+</string>
+    <string name="agree">承認</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="need_for_gps">位置情報がオフになっています。プリンターを検索するには、位置情報をオンにする必要があります。オンにしますか？</string>
+    <string name="no_firmware_check">ファームウェア確認画面を表示しない</string>
+    <string name="tx_firmware_notice">\n最新バージョンのファームウェアにアップデートしてください。\n(F/Wのアップデート方法：接続設定 → アップデート)</string>
+    <string name="goto_Preview">プレビュー</string>
+    <string name="goto_Print">プリント開始</string>
+    <string name="goto_Setting">アップデート</string>
+    <string name="channelId">123</string>
+    <string name="service_demo_tag">ServiceDemo</string>
+    <string name="string_stopservice">Stop Service</string>
+    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--  TODO KSystem: add UI new  -->
+    <string name="tutorial_theme_title">
+<b>Theme</b>
+</string>
+    <string name="tutorial_theme_detail">イメージボックスにニックネームをつけて\n</string>
+    <string name="tutorial_theme_content">シールでお好きにデコレーションをお楽しみください！\n</string>
+    <string name="tutorial_theme_contentfull">イメージボックスにニックネームをつけて、シールでお好きにデコレーションをお楽しみください！</string>
+    <string name="tutorial_print_title">
+<b>Print</b>
+</string>
+    <string name="tutorial_print_detail">ギャラリーからプリントしたい画像を選択すると\n</string>
+    <string name="tutorial_print_content">すぐにプリントが始まります。\n</string>
+    <string name="tutorial_print_contentfull">NFCタグにかざして[ダイレクトプリント]を選択し、ギャラリーから好きな写真を選んですぐにプリントできます。</string>
+    <string name="tutorial_iCamera_title">
+<b>iCamera</b>
+</string>
+    <string name="tutorial_iCamera_detail">NFCをオンにしてイメージボックスにかざすと\n</string>
+    <string name="tutorial_iCamera_content">写真を撮影してすぐにプリントできます。\n</string>
+    <string name="tutorial_iCamera_contentfull">NFCタグにかざして[インスタントカメラ]を選択し、インスタントカメラのように撮影してすぐにプリントできます。</string>
+    <string name="tutorial_iTalk_title">
+<b>iTalk</b>
+</string>
+    <string name="tutorial_iTalk_detail">画像にQRコードを埋め込んでみませんか？\n</string>
+    <string name="tutorial_iTalk_content">スマホで読み取り、コンテンツを楽しむことができます。\n</string>
+     
+    <string name="tutorial_iTalk_contentfull">QRコードにコンテンツを埋め込んでプリントしてみてください。スマホで読み取り、素敵なコンテンツを楽しむことができます。</string>
+    <string name="tutorial_iGift_title">
+<b>iGift</b>
+</string>
+    <string name="tutorial_iGift_detail">プリカット、ラベル、コラージュ、シールなど\n</string>
+    <string name="tutorial_iGift_content">さまざまな形で自由にプリントできます。\n</string>
+    <string name="tutorial_iGift_contentfull">ラベル、コラージュ、シール印刷の機能を使って、自分だけのスマホや手帳をつくってみませんか？</string>
+    <string name="tutorial_next_button">次へ</string>
+    <string name="tutorial_skip">
+<u>スキップ</u>
+</string>
+    <!--  TODO KSystem: Start Main  -->
+    <string name="main_notify_print_ready">プリントの準備ができました！</string>
+    <string name="main_notify_battery_low_percent">バッテリー残量：</string>
+    <string name="main_notify_battery_lowing">バッテリー残量が足りません。</string>
+    <string name="main_notify_device_no_paper">用紙がありません。</string>
+    <string name="main_notify_device_not_connect_bluetooth">Bluetoothを接続してください。</string>
+    <string name="main_disconnect_device">デバイスを\n接続してください。</string>
+    <string name="main_connect">接続済み</string>
+    <string name="main_not_connect">未接続</string>
+    <string name="main_nick_name_disconnect">Bluetoothを\n接続してください。</string>
+    <string name="main_nick_name_default">イメージボックス</string>
+    <string name="main_icamera">iCamera</string>
+    <string name="main_icamera_content">アイカメラ</string>
+    <string name="main_italk">iTalk</string>
+    <string name="main_italk_content">アイトーク</string>
+    <string name="main_igift">iGift</string>
+    <string name="main_igift_content">アイギフト</string>
+    <string name="main_gallery">Gallery</string>
+    <string name="main_sns">SNS</string>
+    <string name="main_last">Last</string>
+    <string name="main_multi_select">複数選択</string>
+    <string name="main_multi_select_chosen">キャンセル</string>
+    <string name="main_title_not_image">作業履歴がありません。</string>
+    <string name="main_content_not_image">思い出を今すぐプリントしてみませんか？</string>
+    <string name="nfc_chosen">〜 選択してください</string>
+    <!--  TODO KSystem: End Main  -->
+    <!--  TODO KSystem: iCamera  -->
+    <!--     4 nuts treen ddau -->
+    <string name="name_icamera_mode">iCamera</string>
+    <string name="name_2cuts_mode">1枚2カット</string>
+    <string name="name_1cut_mode">1枚1カット</string>
+    <string name="name_4pics_mode">1枚4カット</string>
+    <string name="icamera_time_off">OFF</string>
+    <string name="icamera_time_2">2秒</string>
+    <string name="icamera_time_5">5秒</string>
+    <string name="icamera_time_10">10秒</string>
+    <string name="icamera_mode3_time_2">2秒</string>
+    <string name="icamera_mode3_time_5">5秒</string>
+    <string name="icamera_mode3_time_10">10秒</string>
+    <string name="icamera_gray_scale">モノクロ</string>
+    <string name="icamera_sketch">スケッチ</string>
+    <string name="icamera_miniature">ミニチュア</string>
+    <!--  TODO KSystem: End iCamera  -->
+    <!--  TODO KSystem: iGift  -->
+    <string name="i_gift_collage">コラージュ</string>
+    <string name="i_gift_phone_decoration">スマホデコレーション</string>
+    <string name="i_gift_sticker">シール</string>
+    <string name="i_gift_label">ラベル</string>
+    <string name="i_gift_precut">プリカット</string>
+    <!--  TODO KSystem: End iGift  -->
+    <!--  TODO KSystem: iTalk  -->
+    <string name="i_talk_image">Image</string>
+    <string name="i_talk_url">URL</string>
+    <string name="i_talk_voice">Voice</string>
+    <string name="i_talk_movie">Movie</string>
+    <!--  TODO KSystem: End iTalk  -->
+    <!--  TODO KSystem: Basic print  -->
+    <string name="basic_print_169">16:9</string>
+    <string name="basic_print_43">4:3</string>
+    <string name="basic_print_11">1:1</string>
+    <string name="basic_print_id_mode">証明写真</string>
+    <!--  TODO KSystem: End basic print  -->
+    <string name="sticker_download">シールをアップデート</string>
+    <string name="battery_low_power">バッテリー残量不足</string>
+    <string name="battery_full_power">バッテリー充電完了！</string>
+    <string name="battery_low_power_percent">バッテリー残量：</string>
+    <string name="battery_is_low">バッテリー残量が足りません。</string>
+    <string name="confirm">確認</string>
+    <string name="dlg_close">閉じる</string>
+    <!--  TODO Ksystem: Setting  -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_bluetooth1">Bluetooth</string>
+    <string name="setting_bluetooth2">Bluetooth</string>
+    <string name="setting_NFC1">NFC</string>
+    <string name="setting_NFC2">NFCタグ</string>
+    <string name="setting_zink1">Natural Mode</string>
+    <string name="setting_zink2">ナチュラルモード</string>
+    <string name="setting_imageFrame1">Image Frame</string>
+    <string name="setting_imageFrame2">イメージフレーム</string>
+    <string name="setting_power">自動電源OFF</string>
+    <string name="setting_device_title">Device情報</string>
+    <string name="setting_device_1">IB-100</string>
+    <string name="setting_device_2">version 0.0.1</string>
+    <string name="setting_device_3">ファームウェア version 0.0.1</string>
+    <string name="setting_device_4">用紙情報</string>
+    <string name="setting_device_5">0.0.2 最新バージョンがあります。</string>
+    <string name="setting_device_btn">アップデート</string>
+    <string name="setting_buy_paper_title">用紙購入</string>
+    <string name="setting_buy_paper_1">NAVER</string>
+    <string name="setting_buy_paper_1_cost">49,200ウォン</string>
+    <string name="setting_buy_paper_1_button">購入へ ></string>
+    <string name="setting_buy_paper_2">Coupang</string>
+    <string name="setting_buy_paper_2_cost">44,200ウォン</string>
+    <string name="setting_buy_paper_2_button">購入へ ></string>
+    <string name="setting_print_method_form_title">Print方法</string>
+    <string name="setting_print1">1. ~~してください。</string>
+    <string name="setting_license_form_title">オープンソースライセンス</string>
+    <string name="print_timeout">Data sending time out. \nDo you want to reprint?</string>
+    <string name="dialog_nopaper_title">用紙なし</string>
+    <string name="dialog_misfeed_title">用紙排出エラー</string>
+    <string name="dialog_nopaper_content">イメージボックスに用紙を\nセットしてください。</string>
+    <string name="dialog_misfeed_content">用紙を整えてからイメージボックスに\nセットしてください。</string>
+    <!--  (#1064) Added Paper Jam event screen  -->
+    <string name="dialog_paperjam_title">用紙詰まり</string>
+    <string name="dialog_paperjam_content">電源を入れ直したら\n用紙が再度排出されます。</string>
+    <string name="clear_sheet">Cleaning Sheet</string>
+    <string name="clear_sheet_content">クリーニングシートが排出されています。</string>
+    <!-- 2023-02-03 -->
+    <string name="need_update">
+<em>アップデートが必要です</em>
+</string>
+    <string name="update_request">サービスをより快適にご利用いただくために\nアップデートをお願いいたします。</string>
+    <string name="fw_update_download">アップデート中</string>
+    <string name="fw_update_download_contents">アップデート中です。</string>
+    <!--  1070 -->
+    <string name="cancel">キャンセル</string>
+    <string name="done">完了</string>
+    <string name="angle">角度</string>
+    <string name="initial_template_contents">テンプレートがリセットされ\n変更内容が失われます。</string>
+    <string name="terms_use">利用規約</string>
+    <string name="minutes5">5分</string>
+    <string name="minutes10">10分</string>
+    <!-- #1070 -->
+    <string name="text_limit">文字数超過！</string>
+    <!-- #1071 -->
+    <string name="sticker_design">シールで飾る</string>
+    <string name="background">背景</string>
+    <string name="please_make_nickname">はじめまして！👋🏻\n私に名前をつけてください！</string>
+    <string name="not_login">未ログイン</string>
+    <string name="max_character">image box</string>
+    <string name="bluetooth_list">Bluetoothリスト</string>
+    <string name="firmware">ファームウェア</string>
+    <string name="new_version">最新バージョンがあります。</string>
+    <string name="queue_list">プリントキュー</string>
+    <string name="initialize">リセット</string>
+    <string name="content_cooling_mode">イメージボックスの温度が高すぎるため\n冷却を行っています 。</string>
+    <string name="go_back">戻る</string>
+    <string name="print_the_same_picture">もう1枚プリント</string>
+    <string name="printqueue_warning">
+<b>プリントキュー上の画像をプリントしますか？</b>
+</string>
+    <string name="printqueue_warning_content" />
+    <string name="notify_max_print">最大3枚までプリントできます。</string>
+    <string name="italk_no_image">(QRコードリーダー用画像) 画面の画像が必要です</string>
+    <string name="italk_no_url">URLを入力してください。</string>
+    <string name="italk_no_recording">録音してください。</string>
+    <string name="italk_no_movie">動画を選択してください。</string>
+    <string name="italk_qrread_text">QRコードにImageを入力する画面</string>
+    <string name="italk_qrread_url">QRコードにURLを入力する画面</string>
+    <string name="italk_qrread_voice">QRコードにVoiceを入力する画面</string>
+    <string name="italk_qrread_movie">QRコードにMovieを入力する画面</string>
+    <string name="italk_print">すぐにプリント</string>
+    <string name="italk_qr_preview">QRコードプレビュー</string>
+    <string name="italk_goto_url">QRコードを読み取ると、以下のURLのページが表示されます。</string>
+    <string name="italk_type_search_word">検索キーワードを入力してください</string>
+    <string name="italk_select_video">QRコードを読み取った時に表示される動画を選択してください</string>
+    <string name="italk_voice_play">QRコードを読み取ると、録音された音声が自動再生されます。</string>
+    <string name="italk_for_printing">プリント用</string>
+    <string name="igift_type_text">テキストを入力</string>
+    <string name="update_app_title">最新バージョンにアップデート</string>
+    <string name="update_app_detail">アプリを最新バージョンにアップデートするため、ストアに移動します</string>
+    <string name="italk_type_link">URLを入力してください。</string>
+    <string name="igift_notify_addimages">プリントの前に、すべての写真を追加してください</string>
+    <string name="italk_webview_movie">Movieを選択</string>
+    <string name="progressing"> 進行中</string>
+    <string name="decorate_stickers">シールで飾る</string>
+    <string name="sticker_design_reset">シールがリセットされ\n変更内容が失われます。</string>
+    <string name="auto">Auto</string>
+    <string name="icamera_time_on">ON</string>
+    <string name="igift_notify_select_image">画像を選択してください。</string>
+    <string name="printing_wait">Printing, please wait...</string>
+    <string name="ssl_continue">Continue</string>
+    <string name="ssl_date_invalid">The date of the certificate is invalid</string>
+    <string name="ssl_invalid">A generic error occurred</string>
+    <string name="ssl_expired">The certificate has expired</string>
+    <string name="ssl_idmismatch">Hostname mismatch</string>
+    <string name="ssl_notyetvalid">The certificate is not yet valid</string>
+    <string name="ssl_untrusted">The certificate authority is not trusted</string>
+    <string name="main_more">More</string>
+    <string name="igift_apply_all">すべて適用</string>
+    <string name="igift_reselect_img">画像を変更</string>
+    <string name="content_cooling_mode_1">イメージボックスの温度が高すぎるため\n冷却を行っています </string>
+    <string name="content_high_temperature_mode_1">イメージボックスの内部温度が高くなっています。\n冷却を行っています </string>
+    <string name="notify_system_error_0x07">
+システムエラー。プリンターを再起動してください。
+<i>エラーコード：(0x07)</i>
+</string>
+    <string name="please_enter_youtube_search_term">検索キーワードを入力してください</string>
+    <string name="please_enter_url">URLを入力してください</string>
+    <string name="please_select_a_photo">写真を選択してください</string>
+    <string name="please_record_an_audio">音声を録音してください</string>
+    <string name="igift_type_text_vertical">テキストを入力</string>
+    <string name="FontItemDefaultText">Aa</string>
+    <string name="italk_voice_stop">中止</string>
+    <string name="italk_voice_re_record">再度録音</string>
+    <string name="saved_image_fragment_i_talk">iTalk</string>
+    <string name="saved_image_fragment_i_gift">iGift</string>
+    <string name="saved_image_fragment_i_camera">iCamera</string>
+    <string name="saved_image_fragment_gallery">Photo</string>
+    <string name="igift_label_copy_title">コピーしたいデザインを選択してください</string>
+    <string name="igift_label_copy_title1">適用したい場所を選択してください</string>
+    <string name="igift_label_copy_cancel">選択をキャンセル</string>
+    <string name="igift_label_copy_apply">適用</string>
+    <string name="device_update_lasest_version">最新バージョンです。</string>
+    <string name="igift_notify_insert_text">プリントの前に、ラベルを追加してください</string>
+    <string name="set_name_error">名前設定エラー！</string>
+    <string name="no_photo_selected">選択された写真なし</string>
+    <string name="qr_text_guide">QRコードを読み取った時に表示される画像を\n追加してください</string>
+    <string name="sns_sign_out">SNS連携を解除します</string>
+    <string name="edit_phrase">文面を入力して\nください</string>
+    <string name="edit_phrase_hint">文面を入力してください</string>
+    <string name="edit_phrase_warning">プリントしたい文面を入力してください。</string>
+    <string name="faq">よくあるご質問(FAQ)</string>
+    <string name="setting_customer_service">お問い合わせ</string>
+    <string name="filter_grayscale">グレースケール</string>
+    <string name="filter_monochrome">単色画</string>
+    <string name="filter_sepia">セピア</string>
+    <string name="filter_sketch">スケッチ</string>
+    <string name="filter_smooth_toon">漫画</string>
+    <string name="filter_vignette">挿絵</string>
+    <string name="filter_zoom_out">凸状</string>
+    <string name="filter_zoom_in">凹状</string>
+    <string name="filter_swirl">渦巻き</string>
+    <string name="filter_default">オリジナル</string>
+    <string name="connection_fail">接続失敗</string>
+    <string name="connection_full_content">現在、パーティーモードの\n最大接続数に達しています。\n(最大3名)</string>
+    <string name="firmware_not_found">There is no firmware information</string>
+    <string name="video_gallery">動画ギャラリー</string>
+    <string name="italk_movie_upload_10secs">10秒以内の動画をアップロードしてください。</string>
+    <string name="italk_movie_upload_format">対応していない動画形式です 。</string>
+    <string name="italk_movie_wait_for_download">ダウンロード中です。</string>
+</resources>

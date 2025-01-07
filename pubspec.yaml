@@ -1,6 +1,8 @@
 name: my_filter_camera
 description: "This package lets you use the camera with advanced digital filters, apply real-time effects, and customize your camera experience easily."
 version: 1.0.0
+maintainer: Ducnguyen (Wong) and Thaodoan (Mia)
+repository: https://github.com/ngmduc2012/my_filter_camera
 
 environment:
   sdk: ^3.5.3

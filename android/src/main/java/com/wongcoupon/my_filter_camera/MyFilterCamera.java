@@ -43,7 +43,6 @@ public class MyFilterCamera implements FlutterPlugin, MethodCallHandler, PluginR
     private final TalkingWithFlutter talkingWithFlutter = new TalkingWithFlutter(utils);
     private final Permission permission = new Permission();
     private CustomCameraViewFactory customCameraViewFactory;
-    private CustomCameraViewFactory2 customCameraViewFactory2;
     private PluginRegistry.RequestPermissionsResultListener listener;
     private CameraHandle camera;
 
@@ -59,17 +58,11 @@ public class MyFilterCamera implements FlutterPlugin, MethodCallHandler, PluginR
         if (customCameraViewFactory == null) {
             customCameraViewFactory = new CustomCameraViewFactory(context);
         }
-        if (customCameraViewFactory2 == null) {
-            customCameraViewFactory2 = new CustomCameraViewFactory2(context);
-        }
 
         flutterPluginBinding
                 .getPlatformViewRegistry()
                 .registerViewFactory("custom_camera_view", customCameraViewFactory);
 
-        flutterPluginBinding
-                .getPlatformViewRegistry()
-                .registerViewFactory("custom_camera_view2", customCameraViewFactory2);
     }
 
     @Override
@@ -77,7 +70,6 @@ public class MyFilterCamera implements FlutterPlugin, MethodCallHandler, PluginR
         context = null;
         talkingWithFlutter.remove();
         customCameraViewFactory=null;
-        customCameraViewFactory2=null;
 
     }
 

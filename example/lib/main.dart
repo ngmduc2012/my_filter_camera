@@ -5,20 +5,19 @@ import 'package:flutter/material.dart';
 import 'package:my_filter_camera/my_filter_camera.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-
 void main() {
   runApp(const MaterialApp(home: CameraTestScreen()));
 }
+
 class CameraTestScreen extends StatefulWidget {
   const CameraTestScreen({super.key});
-
 
   @override
   _CameraTestScreenState createState() => _CameraTestScreenState();
 }
 
 class _CameraTestScreenState extends State<CameraTestScreen> {
-  final CameraViewController controller= CameraViewController();
+  final CameraViewController controller = CameraViewController();
 
   bool isStarted = false;
 
@@ -35,19 +34,19 @@ class _CameraTestScreenState extends State<CameraTestScreen> {
   // Initialize video player with the recorded video file
   double _currentSliderValue = 0;
   Future<void> _loadPreferences() async {
-    final prefs = await SharedPreferences.getInstance();
-    final int? brightnessValue = prefs.getInt('brightnessValue');
+    // final prefs = await SharedPreferences.getInstance();
+    // final int? brightnessValue = prefs.getInt('brightnessValue');
   }
+
   Future<void> _setPreferences({required int brightnessValue}) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt('brightnessValue', brightnessValue);
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.transparent,
       body: Stack(
         children: [
           Positioned.fill(
@@ -68,7 +67,6 @@ class _CameraTestScreenState extends State<CameraTestScreen> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-
                   Slider(
                     value: _currentSliderValue,
                     max: 50,
@@ -105,15 +103,11 @@ class _CameraTestScreenState extends State<CameraTestScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-
                       IconButton(
                         color: Colors.white,
                         icon: ValueListenableBuilder(
                           valueListenable: controller.cameraFacingState,
                           builder: (context, state, child) {
-                            if (state == null) {
-                              return const Icon(Icons.camera_front);
-                            }
                             switch (state as CameraFacing) {
                               case CameraFacing.front:
                                 return const Icon(Icons.camera_front);
@@ -123,10 +117,15 @@ class _CameraTestScreenState extends State<CameraTestScreen> {
                           },
                         ),
                         iconSize: 32.0,
-                        onPressed: () => controller.switchCamera(enableCamera2: false),
+                        onPressed: () =>
+                            controller.switchCamera(),
                       ),
                       IconButton(
-                        icon: const Icon(Icons.camera_alt_outlined,size: 40,color: Colors.white,),
+                        icon: const Icon(
+                          Icons.camera_alt_outlined,
+                          size: 40,
+                          color: Colors.white,
+                        ),
                         onPressed: () async {
                           final xFile = await controller.capture();
                           final utf8 = await xFile.readAsBytes();
@@ -135,9 +134,9 @@ class _CameraTestScreenState extends State<CameraTestScreen> {
                               builder: (BuildContext context) {
                                 return AlertDialog(
                                   title: const Text('Image preview'),
-                                  content:ExtendedImage.memory(
+                                  content: ExtendedImage.memory(
                                     utf8,
-                                    fit:BoxFit.cover,
+                                    fit: BoxFit.cover,
                                     filterQuality: FilterQuality.high,
                                   ),
                                   actions: <Widget>[
@@ -152,7 +151,6 @@ class _CameraTestScreenState extends State<CameraTestScreen> {
                                 );
                               });
                         },
-
                       ),
                     ],
                   ),
@@ -171,4 +169,3 @@ class _CameraTestScreenState extends State<CameraTestScreen> {
     super.dispose();
   }
 }
-

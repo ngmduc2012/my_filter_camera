@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class MyLifeCircleWidget extends StatefulWidget {
-
   /*
   Learn more: https://docs.flutter.dev/get-started/flutter-for/android-devs#how-do-i-listen-to-android-activity-lifecycle-events
    */
@@ -14,14 +13,21 @@ class MyLifeCircleWidget extends StatefulWidget {
   final Function()? onDetached;
   final Function()? onHidden;
 
-  const MyLifeCircleWidget({super.key, required this.child, this.onResumed, this.onInactive, this.onPaused, this.onDetached, this.onHidden});
+  const MyLifeCircleWidget(
+      {super.key,
+      required this.child,
+      this.onResumed,
+      this.onInactive,
+      this.onPaused,
+      this.onDetached,
+      this.onHidden});
 
   @override
   State<MyLifeCircleWidget> createState() => _MyLifeCircleWidgetState();
 }
 
-class _MyLifeCircleWidgetState extends State<MyLifeCircleWidget>  with WidgetsBindingObserver {
-
+class _MyLifeCircleWidgetState extends State<MyLifeCircleWidget>
+    with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
@@ -49,7 +55,6 @@ class _MyLifeCircleWidgetState extends State<MyLifeCircleWidget>  with WidgetsBi
         widget.onHidden?.call();
     }
   }
-
 
   @override
   Widget build(BuildContext context) {

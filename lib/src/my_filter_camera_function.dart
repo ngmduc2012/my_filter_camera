@@ -90,7 +90,7 @@ class CameraViewController {
       // events = null;
       _controllerHashcode = null;
     }
-    
+
     facesController.close();
   }
 
@@ -132,7 +132,7 @@ class CameraViewController {
       Future<CameraTurnOnResponse> futureResponse = responseStream.first;
 
       // Yêu cầu quyền từ native
-      final bool hasPermission = await _invokeMethod('checkPermission');
+       await _invokeMethod('checkPermission');
 
       // Chờ phản hồi từ stream
       CameraTurnOnResponse response = await futureResponse;
@@ -151,7 +151,7 @@ class CameraViewController {
 
   bool isStarting = false;
 
-  Future<void> start({required bool enableCamera2}) async {
+  Future<void> start() async {
     if (isStarting) {
       throw Exception('face_detection: Called start() while already starting.');
     }
@@ -166,7 +166,6 @@ class CameraViewController {
     cameraFacingState.value = facing;
     final Map<dynamic, dynamic> arguments = {};
     arguments['facing'] = facing.index;
-    arguments['enableCamera2'] = enableCamera2;
     if (ratio != null) {
       arguments['ratio'] = (ratio == Ratio.ratio_4_3) ? 1 : 0;
     }
@@ -221,8 +220,7 @@ class CameraViewController {
   ///
   /// Only works if torch is available.
 
-
-  Future<void> switchCamera({required bool enableCamera2}) async {
+  Future<void> switchCamera() async {
     try {
       await _invokeMethod('stop');
     } on PlatformException catch (error) {
@@ -233,13 +231,11 @@ class CameraViewController {
     }
     facing =
         facing == CameraFacing.back ? CameraFacing.front : CameraFacing.back;
-    await start(enableCamera2: enableCamera2);
+    await start();
   }
-
 
   Future<XFile> capture() async {
     try {
-
       final result = await _invokeMethod('capture');
 
       if (result != null && result is Map) {
@@ -263,7 +259,6 @@ class CameraViewController {
     }
   }
 
-
   /// start video
   Future<void> startVideoRecording() async {
     try {
@@ -283,11 +278,9 @@ class CameraViewController {
         String mimeType = result['mimeType'];
         int size = result['size'];
 
-
-
-
         // Use the path to create an XFile
-        XFile videoFile = XFile(path, mimeType: mimeType, name: name, length: size);
+        XFile videoFile =
+            XFile(path, mimeType: mimeType, name: name, length: size);
         print('Video saved at: ${videoFile.path}');
         return videoFile;
       }
@@ -297,7 +290,6 @@ class CameraViewController {
     throw Exception('Failed to stop recording and retrieve video file');
   }
 
-
   /// pause video
   Future<void> pauseVideoRecording() async {
     try {
@@ -306,6 +298,7 @@ class CameraViewController {
       debugPrint('${error.code}: ${error.message}');
     }
   }
+
   /// resume video
   Future<void> resumeVideoRecording() async {
     try {
@@ -339,7 +332,6 @@ class CameraViewController {
         List<ImageData> imageDataList = [];
 
         for (var imageData in images) {
-          final String filterName = imageData['name'] as String;
           final String code = imageData['code'] as String;
           final String base64Image = imageData['image'] as String;
 
@@ -364,33 +356,28 @@ class CameraViewController {
       rethrow;
     }
   }
-  
-  
+
   Future<int> adjustBrightness({required int value}) async {
     try {
       final Map<dynamic, dynamic> arguments = {};
       arguments['brightnessValue'] = value;
-      final result = await _invokeMethod('adjustBrightness',arguments);
-        return result;
+      final result = await _invokeMethod('adjustBrightness', arguments);
+      return result;
     } on PlatformException catch (error) {
       debugPrint('${error.code}: ${error.message}');
       rethrow;
     }
   }
-
 
   Future<String> removeDir() async {
     try {
-
       final result = await _invokeMethod('removeDir');
-        return result;
+      return result;
     } on PlatformException catch (error) {
       debugPrint('${error.code}: ${error.message}');
       rethrow;
     }
   }
-
-
 
   //
   // /// Checks if the MobileScannerController is bound to the correct MobileScanner object.

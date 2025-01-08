@@ -92,7 +92,6 @@ class CameraHandle(
 
 
     private lateinit var customCameraView: CustomCameraView
-    private lateinit var customCameraView2: CustomCameraView2
     private lateinit var gpuImageView: GPUImageView
     private var imageAnalysis: ImageAnalysis? = null
 
@@ -147,13 +146,9 @@ class CameraHandle(
     @SuppressLint("ClickableViewAccessibility")
     @ExperimentalGetImage
     fun start(call: MethodCall, result: MethodChannel.Result) {
-        val enableCamera2 = call.argument<Boolean>("enableCamera2") ?: false
         val handler = Handler(activity.mainLooper)
-        if (enableCamera2) {
-            customCameraView2.upDateFilter(filterIndex)
-        } else {
-            customCameraView.upDateFilter(filterIndex)
-        }
+
+        customCameraView.upDateFilter(filterIndex)
         if (camera != null && preview != null && textureEntry != null) {
             val resolution = Objects.requireNonNull(
                 preview!!.resolutionInfo
@@ -246,7 +241,6 @@ class CameraHandle(
                                     utils,
                                     converter,
                                     cameraSelector,
-                                    enableCamera2
 
                                 )
                             )
@@ -643,7 +637,6 @@ class CameraHandle(
 //        mGpuFilter = GPUImageFilterTools.createFilter(activity, filterType)
         // Send back a success result
         customCameraView.upDateFilter(filterType)
-        customCameraView2.upDateFilter(filterType)
         filterIndex = filterType
         result.success("Filter updated successfully")
     }
@@ -778,7 +771,6 @@ class CameraHandle(
         private val utils: Utils,
         private val converter: YuvToRgbConverter,
         private val cameraSelector: CameraSelector,
-        private val enableCamera2: Boolean = false
     ) : ImageAnalysis.Analyzer {
         override fun analyze(image: ImageProxy) {
 //            if (!isCapturing) {
@@ -791,18 +783,10 @@ class CameraHandle(
             val rotatedBitmap = bitmap.rotate(cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA)
 //            val dst = adjustGammaToBitmap(rotatedBitmap)
 
-            if (enableCamera2) {
-                customCameraView2.post {
-                    customCameraView2.setBitmap(
-                        rotatedBitmap
-                    )
-                }
-            } else {
-                customCameraView.post {
-                    customCameraView.setBitmap(
-                        rotatedBitmap
-                    )
-                }
+            customCameraView.post {
+                customCameraView.setBitmap(
+                    rotatedBitmap
+                )
             }
 //            bitmap.recycle()
             image.close()
@@ -902,7 +886,6 @@ class CameraHandle(
         gpuImageView = GPUImageView(activity)
         mGpuImage = GPUImage(activity)
         customCameraView = CustomCameraViewHolder.getInstance(activity)
-        customCameraView2 = CustomCameraViewHolder2.getInstance(activity)
         // Initialize mGpuFilter here with a default filter
         mGpuFilter = GPUImageFilterTools.createFilter(activity, 9)
 

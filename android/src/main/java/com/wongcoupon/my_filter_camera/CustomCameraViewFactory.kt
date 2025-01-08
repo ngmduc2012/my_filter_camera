@@ -31,27 +31,7 @@ class CustomCameraPlatformView(  private val customCameraView: CustomCameraView 
 
     }
 }
-class CustomCameraViewFactory2(context: Context) : PlatformViewFactory(StandardMessageCodec.INSTANCE) {
 
-    override fun create(context: Context, viewId: Int, args: Any?): PlatformView {
-        val customCameraView = CustomCameraViewHolder2.getInstance(context)
-        return CustomCameraPlatformView2(customCameraView)
-    }
-}
-
-//when back from cameraview screen, it will call customcameraview again with same initial key
-class CustomCameraPlatformView2(  private val customCameraView: CustomCameraView2 ) : PlatformView {
-    override fun getView(): View {
-        Log.d("CustomCameraPlatformVie", "getView")
-        return customCameraView
-    }
-    override fun dispose() {
-//        customCameraView.removeAllViews()
-//        customCameraView.onDetachedFromWindow()
-        Log.d("CustomCameraPlatformVie", "Disposed resources")
-
-    }
-}
 //class CustomCameraViewFactory :PlatformViewFactory(StandardMessageCodec.INSTANCE) {
 //    override fun create(context: Context, viewId: Int, args: Any?): PlatformView {
 //        return CustomCameraPlatformView(context,viewId,args)

@@ -56,6 +56,8 @@ CameraView(
   },
 ),
 ```
+- To start camera, use `controller.start()` function, and use `controller.stop` to stop camera. 
+- `controller.switch()` change front and rear camera direction
 ## Filter types
 ![Filter type](docs/filter_demo.gif)
 - Update filter type:

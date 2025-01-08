@@ -9,19 +9,17 @@ class CameraData {
   final Rot? rot;
 
   CameraData(
-      {
-        this.size,
-        this.guidID,
-        this.faceImage,
-        this.flippedFaceImage,
-        this.eKYCID,
-        this.rot});
+      {this.size,
+      this.guidID,
+      this.faceImage,
+      this.flippedFaceImage,
+      this.eKYCID,
+      this.rot});
 
   /// Create a [face] from native data.
   CameraData.fromNative(
-      Map data,
-      )   :
-        size = data['size'] as int?,
+    Map data,
+  )   : size = data['size'] as int?,
         guidID = data['guidID'] as int?,
         faceImage = data['faceImage'] as String?,
         flippedFaceImage = data['flippedFaceImage'] as String?,

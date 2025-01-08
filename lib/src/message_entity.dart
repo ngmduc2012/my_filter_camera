@@ -139,19 +139,46 @@ class FlutterBluePlusException implements Exception {
 }
 
 enum PluginFilterEnum {
-  NORMAL(9, "Original",),
+  NORMAL(
+    9,
+    "Original",
+  ),
   GRAYSCALE(0, "GrayScale"),
-  MONOCHROME(1,"MonoChrome"),
-  SEPIA(2,"Sepia"),
-  SKETCH(3, "Sketch",),
-  SMOOTH_TOON(4,"Smooth Toon"),
-  VIGNETTE(5, "Vignette",),
-  BULGE_DISTORTION(6, "Bulge Distortion zoom",),
-  BULGE_DISTORTION2(7, "Bulge Distortion",),
-  SWIRL(8, "Swirl",),
-  LUMINANCE(27, "Luminance",),
-  BLEND_ALPHA(28, "Blend Alpha",),
-  HUE(29, "Hue",);
+  MONOCHROME(1, "MonoChrome"),
+  SEPIA(2, "Sepia"),
+  SKETCH(
+    3,
+    "Sketch",
+  ),
+  SMOOTH_TOON(4, "Smooth Toon"),
+  VIGNETTE(
+    5,
+    "Vignette",
+  ),
+  BULGE_DISTORTION(
+    6,
+    "Bulge Distortion zoom",
+  ),
+  BULGE_DISTORTION2(
+    7,
+    "Bulge Distortion",
+  ),
+  SWIRL(
+    8,
+    "Swirl",
+  ),
+  LUMINANCE(
+    27,
+    "Luminance",
+  ),
+  BLEND_ALPHA(
+    28,
+    "Blend Alpha",
+  ),
+  HUE(
+    29,
+    "Hue",
+  );
 
   const PluginFilterEnum(this.code, this.name);
 
@@ -160,7 +187,8 @@ enum PluginFilterEnum {
 }
 
 class ImageData {
-  final PluginFilterEnum filterType; // Thay đổi kiểu tên từ String thành FilterType
+  final PluginFilterEnum
+      filterType; // Thay đổi kiểu tên từ String thành FilterType
   final String base64;
 
   ImageData({

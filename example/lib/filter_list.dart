@@ -40,7 +40,8 @@ class _FilterListState extends State<FilterList> {
             children: [
               ElevatedButton(
                 onPressed: () async {
-                  await widget.controller.updateFilter(filterType: imageData.filterType.code);
+                  await widget.controller
+                      .updateFilter(filterType: imageData.filterType.code);
                 },
                 child: Text(imageData.filterType.name),
               ),
